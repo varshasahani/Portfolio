@@ -61,7 +61,7 @@ async function getRating(){
         const cfresponse = await fetch(cfurl);
         const cfdata = await cfresponse.json();
 
-        cc_rating.textContent = ccdata.rating;
+        cc_rating.textContent = ccdata.highest_rating;
         cc_star.textContent = ccdata.stars;
         cf_rating.textContent = cfdata.ranking;
         cf_tag.textContent = cfdata.total_problems_solved;
