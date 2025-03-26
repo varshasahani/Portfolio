@@ -84,5 +84,5 @@ if(currentTheme){
     
 }
 if(window.innerWidth < 1114){
-    window.alert('This Site is not made responsive, Plz visit it in desktop mode, Thx \n                                   -0x67');
+    window.alert('This Site is not made responsive, Plz visit it in desktop mode, Thx');
 }
